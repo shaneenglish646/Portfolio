@@ -1,0 +1,8 @@
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+th {
+    background-color: grey; 
+    border-bottom: 3px solid black;
+}
