@@ -1,0 +1,11 @@
+#topBar {
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+#bottomBar {
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+    <style>
+        td {
+            height: 25px;
+            width: 350px;
+            }
+
+        tr {
+            font-weight: bold;
+            text-align: right;
+        }
+    </style>
+
+    <head>
+        <link href="Styles\restaurantStyles.css" 
+        rel="stylesheet" 
+        type="text/css" />
+        <title>Bodacious Burgers</title>
+    </head>
+
+    <body>
+
+        <div id="topBar">
+            Bodacious Burgers<br/><hr>
+        </div>
+
+        <div>
+            <a href="restaurantHome.html">Home</a>&nbsp;&nbsp;&nbsp; 
+            <a href="restaurantMenu.html">Menu</a>&nbsp;&nbsp;&nbsp;
+            <a href="restaurantContact.html">Contact Us</a><br/><br/><hr>
+        </div>
+
+        <div>
+            <form action="inbox.html" method="POST"><br/>
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type="text" name="custName" style="width: 250px;"/></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="text" name="custEmail" style="width: 250px;"/></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Phone:</td>
+                        <td><input type="text" name="custPhone" style="width: 250px;"/></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Reason for Inquiry:</td>
+                        <td style="align-content: right;"><select name="reason" style="width: 254px; min-height: 25px;">
+                                <option value="catering">Catering</option>
+                                <option value="party">Private Party</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select></td>
+                    </tr>
+                    
+                    <tr>
+                        <td style="vertical-align: top;">Additional Information:</td>
+                        <td><input style="height: 150px; width: 250px;" type="text" name="textboxInput"/></td>
+                    </tr>
+
+                    <tr>
+                        <td>Have you been to the restaurant?</td>
+                        <td style="text-align: center;">
+                            <input type="radio" name="answer" value="No" checked/>No&nbsp;&nbsp;
+                            <input type="radio" name="answer" value="Yes"/>Yes
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Best days to contact you:</td>
+                        <td style="text-align: center">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="checkbox" name="dayChoice" value="monDay" unchecked/>M
+                            <input type="checkbox" name="dayChoice" value="tueDay" unchecked/>T
+                            <input type="checkbox" name="dayChoice" value="wedDay" unchecked/>W
+                            <input type="checkbox" name="dayChoice" value="thuDay" unchecked/>Th
+                            <input type="checkbox" name="dayChoice" value="friDay" unchecked/>F
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td style="text-align: center;"><input type="submit"/></td>
+                    </tr>
+                    
+                </table>         
+            </form>
+        </div>
+
+        <div id="bottomBar" align="center">
+            <hr>
+            123 Main Street, Struthers, Ohio, 44471<br/><br/>
+            888.867.5309
+        </div>
+    
+    </body>
+
+</html>
