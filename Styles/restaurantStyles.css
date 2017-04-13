@@ -2,10 +2,15 @@
     text-align: center;
     font-weight: bold;
     font-size: 200%;
+    background-color: white;
+    color: black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 #bottomBar {
     position: absolute;
     bottom: 0;
     width: 99%;
+    background-color: white;
+    color: black;
 }
