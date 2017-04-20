@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<style>
+    td {
+        width: 250px;
+    }
+</style>
+<head>
+    <script type="text/JavaScript" src="auditionPractice.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        rel="stylesheet" type="text/css"/>
+    <title>Practice Makes Perfect</title>
+</head>
+<body>
+    <h1>Audition Sample</h1><br/>
+    <div>
+        <form name="getNums" onsubmit="doIt()" class="form-inline">
+        <div class="form-group">
+            <table>
+                <tr>
+                    <td><label for="startNum">Starting Number:</label></td>
+                    <td><input type="number" class="form-control" id="startNum"></td>
+                </tr>
+                <tr>
+                    <td><label for="secondNum">Second Number:</label></td>
+                    <td><input type="number" class="form-control" id="secondNum"></td>
+                </tr>
+                <tr>
+                    <td><label for="stepNum">Step Value:</label></td>
+                    <td><input type="number" class="form-control" id="stepNum"></td>
+                </tr>
+            </table>
+        </div><br/><br/>
+        <div class="form-group">
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+        </form><br/>
+        <table id="results"> 
+            <tr>
+                <td><span id="showStart"></span></td>
+            </tr>
+            <tr>
+                <td><span id="showSecond"></span></td>
+            </tr>
+            <tr>
+                <td><span id="showStep"></span></td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+
+    
+
