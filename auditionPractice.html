@@ -14,7 +14,7 @@
 <body>
     <h1>Audition Sample</h1><br/>
     <div>
-        <form name="getNums" onsubmit="return doIt()" class="form-inline">
+        <form name="getNums" onsubmit="return readIt()" class="form-inline">
         <div class="form-group">
             <table>
                 <tr>
@@ -35,20 +35,10 @@
             <button type="submit" class="btn btn-default">Submit</button>
         </div>
         </form><br/>
-        <table id="results"> 
+        <table id="results" style="display:none;"> 
             <tr>
-                <td><span id="showStart"></span></td>
-            </tr>
-            <tr>
-                <td><span id="showSecond"></span></td>
-            </tr>
-            <tr>
-                <td><span id="showStep"></span></td>
+                <td><span id="showIt">a</span></td>
             </tr>
         </table>
     </body>
 </html>
-
-
-    
-
